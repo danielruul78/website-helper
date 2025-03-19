@@ -1,0 +1,8 @@
+{
+    "require": {
+        "monolog/monolog": "^3.0",
+        "wiardvanrij/serverinfo": "^1.0",
+        "wiardvanrij/sshwrapper": "^1.1",
+        "danielme85/simple-server-info": "^1.0"
+    }
+}

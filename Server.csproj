@@ -1,0 +1,17 @@
+<Project Sdk="Peachpie.NET.Sdk/1.0.6">
+
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Peachpie.AspNetCore.Web" Version="1.1.10" />
+    <PackageReference Include="Peachpie.Runtime" Version="1.1.10" />
+  </ItemGroup>
+
+</Project>
